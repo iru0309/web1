@@ -1,0 +1,83 @@
+.div_celebrity {
+  background:#212121;
+  text-align: center;
+  width:100%;
+}
+    
+.outer-div{
+  font-size:0;
+  width:100%;
+  height:auto;
+  background:#212121;
+  text-align:center;
+  padding-top: 10%;
+  padding-bottom: 10%;
+  margin:0;
+}
+  
+.inner-div{
+  margin:0;
+  display:inline-block;
+  width:30%;
+  height:30vw;
+}
+
+    
+.inner-hover{
+  width:100%;
+  height:100%;
+  transition-property: background-color;
+  transition-duration: 1s;
+  transition-timing-function: ease-out;
+  transition-delay: 50ms
+  }
+    
+.font-div{
+  text-align:left;
+}
+ 
+.name-span{
+  line-height:2;
+  position: relative;
+  font-family:Noto Sans KR;
+  font-size: 2vw;
+  font-weight:700;
+  color:#fff;
+  padding-left: 3%;
+  transition: .5s ease;
+  opacity: 0;
+}
+    
+.inner-span {
+  position: relative;
+  font-family:Noto Sans KR;
+  font-size: 1.2vw;
+  font-weight:500;
+  color:#fff;
+  padding: 0 0 0 3%;
+  transition: .5s ease;
+  opacity: 0;
+}
+
+.click-div{
+    position: relative;
+    text-align:left;
+    top:17vw;
+    }
+
+.inner-span-view {
+  position: relative;
+  font-family:Noto Sans KR;
+  font-size: 1.5vw;
+  font-weight:600;
+  padding: 0 0 0 3%;
+  transition: .5s ease;
+  opacity: 0;
+}
+
+.inner-div:hover .inner-hover {background: rgba(255, 255, 255, 0.3);transition: background 1s ease-out 50ms;}
+.inner-div:hover .name-span {opacity: 1;} 
+.inner-div:hover .inner-span {opacity: 1;}    
+.inner-div:hover .inner-span-view {opacity: 1;}
+
+a { text-decoration:none; vertical-align: middle; padding: 0; margin: 0; color:#fff;}
